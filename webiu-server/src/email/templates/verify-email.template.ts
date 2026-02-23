@@ -1,5 +1,5 @@
 export const getVerifyEmailTemplate = (
-  frontendBaseUrl: string,
+  backendBaseUrl: string,
   verificationToken: string,
 ): string => `
   <div style="font-family: Arial, sans-serif; line-height: 1.6;">
@@ -11,7 +11,7 @@ export const getVerifyEmailTemplate = (
       Click the link below to verify your email:
     </p>
     <a 
-      href="${frontendBaseUrl}/api/v1/auth/verify-email?token=${verificationToken}" 
+      href="${backendBaseUrl}/api/v1/auth/verify-email?token=${verificationToken}" 
       style="display: inline-block; padding: 10px 20px; color: #fff; background-color: #007BFF; text-decoration: none; border-radius: 5px; font-weight: bold;"
     >
       Verify Email
