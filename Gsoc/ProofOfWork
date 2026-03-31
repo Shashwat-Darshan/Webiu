@@ -1,0 +1,22 @@
+# Comments
+- https://github.com/c2siorg/Webiu/pull/612#issuecomment-4159721615
+- https://github.com/c2siorg/Webiu/pull/623#issuecomment-4159826989
+
+# Pull Requests
+- Pull Request #416 — chore(docker): Harden Docker setup for production readiness — Merged — https://github.com/c2siorg/Webiu/pull/416
+- Pull Request #445 — fix: resolve three backend API bugs — Merged — https://github.com/c2siorg/Webiu/pull/445
+- Pull Request #478 — fix: Cache key case mismatch and null result caching in getRepoContributors — Merged — https://github.com/c2siorg/Webiu/pull/478
+- Pull Request #512 — fix(auth): Add OAuth CSRF state validation and stabilize frontend unit tests — Open — https://github.com/c2siorg/Webiu/pull/512
+- Pull Request #539 — fix(cache): honor cached empty/falsy values — Open — https://github.com/c2siorg/Webiu/pull/539
+- Pull Request #214 — fix: validate target_field before tabular training (#212) — Open — https://github.com/c2siorg/tensormap/pull/214
+- Pull Request #213 — fix: add logging to Socket.IO connect handler (#211) — Open — https://github.com/c2siorg/tensormap/pull/213
+- Pull Request #210 — chore: remove accidental root artifact file n' — Open — https://github.com/c2siorg/tensormap/pull/210
+
+# Issues
+- Issue #414 — chore(docker): Harden Docker setup - add .dockerignore, production builds, security fixes — Closed — https://github.com/c2siorg/Webiu/issues/414
+- Issue #415 — bug(server): Multiple backend API endpoint bugs - duplicated route, incorrect PR count, broken email verification URL — Closed — https://github.com/c2siorg/Webiu/issues/415
+- Issue #454 — Add Docker resource limits to prevent host memory exhaustion — Open — https://github.com/c2siorg/Webiu/issues/454
+- Issue #476 — fix: Cache key case mismatch and null result caching in getRepoContributors — Closed — https://github.com/c2siorg/Webiu/issues/476
+- Issue #505 — Remove console logging from production code — Open — https://github.com/c2siorg/Webiu/issues/505
+- Issue #511 — OAuth CSRF state protection and frontend test stabilization — Open — https://github.com/c2siorg/Webiu/issues/511
+- Issue #538 — Fix cache-hit checks for empty and falsy cached values — Open — https://github.com/c2siorg/Webiu/issues/538
